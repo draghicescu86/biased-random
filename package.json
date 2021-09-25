@@ -1,0 +1,16 @@
+{
+	"name": "biased-random",
+	"version": "0.0.1",
+	"description": "",
+	"main": "src/random.js",
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"test": "jest",
+		"cover": "jest --coverage",
+		"release": "np --no-2fa"
+	},
+	"author": "draghicescu <draghicescu86@gmail.com>",
+	"license": "ISC"
+}
